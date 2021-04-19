@@ -22,6 +22,7 @@ public class Game_Property : MonoBehaviour
 
         Debug.Log(x);
         Debug.Log(y);
+        // The specific HealthMessage method called will depend on the arguments passed in.
         ternaryOperation.HealthMessage(player1.Health, nameof(player1));
         ternaryOperation.HealthMessage(player2);
     }
