@@ -18,4 +18,9 @@ public class Fruit_polymorphism : MonoBehaviour
     {
         Debug.Log("Hello, I am a fruit.");
     }
+
+    public virtual void Taste()
+    {
+        Debug.Log("Sweet!");
+    }
 }

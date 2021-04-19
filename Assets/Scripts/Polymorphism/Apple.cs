@@ -27,4 +27,9 @@ public class Apple : Fruit_polymorphism
     {
         Debug.Log("Hello, I am an apple.");
     }
+
+  public override void Taste()
+  {
+    base.Taste();
+  }
 }

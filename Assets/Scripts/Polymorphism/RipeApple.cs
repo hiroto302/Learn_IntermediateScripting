@@ -8,4 +8,9 @@ public class RipeApple : Fruit_polymorphism
     {
         Debug.Log("Hello, I am a RipeApple");
     }
+
+    public override void Taste()
+    {
+        Debug.Log("Very Taste");
+    }
 }
