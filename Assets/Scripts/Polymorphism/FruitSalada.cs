@@ -29,5 +29,14 @@ public class FruitSalada : MonoBehaviour
 
         myApple.SayHello();
         myApple.Chop();
+
+        // Notice how each Humanoid variable contains
+        // a reference to a different class in the
+        // inheritance hierarchy, yet each of them
+        // calls SayHello() method.
+
+        // Apple myRipApple  = new RipeApple();
+        Fruit_polymorphism myRipApple  = new RipeApple();
+        myRipApple.SayHello();
         }
 }
