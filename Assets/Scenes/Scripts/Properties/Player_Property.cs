@@ -37,4 +37,5 @@ public class Player_Property : MonoBehaviour
 
     //auto-implemented property
     public int Health { get; set; }
+    public string Name { get; set; }
 }
