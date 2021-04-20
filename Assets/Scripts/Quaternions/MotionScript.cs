@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+// 移動スクリプト
 public class MotionScript : MonoBehaviour
 {
     public float speed = 3f;
